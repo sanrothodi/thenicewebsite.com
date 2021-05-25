@@ -1,7 +1,7 @@
 /*CSS Stylesheet*/
 :root {
   --black: #ffffff;
-  --grey: #f90;
+  --grey: #2D74ED; /*#f90 for original orange*/
   --white: #000000;
   --white41: rgba(0, 0, 0, 0.41);
   --white42: rgba(0, 0, 0, 0.42);
