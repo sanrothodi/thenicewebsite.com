@@ -1,8 +1,8 @@
 /*CSS Stylesheet*/
 :root {
-  --black: #000000;
+  --black: #ffffff;
   --grey: #f90;
-  --white: #ffffff;
+  --white: #000000;
   --white41: rgba(0, 0, 0, 0.41);
   --white42: rgba(0, 0, 0, 0.42);
 }
@@ -592,3 +592,11 @@ img {
   margin: 0.5em 0.5em;
 }
 }
+
+
+
+
+.hover_image:hover {text-decoration: none}
+.hide {display:none}
+.hover_image:hover img:first-child{display:none}
+.hover_image:hover img:last-child{display:inline-block}
