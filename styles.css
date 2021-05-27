@@ -486,7 +486,7 @@ img {
 
 .portfolio {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: space-around;
   position: relative;
 }
@@ -532,7 +532,7 @@ img {
 @media only screen and (min-width:501px) {
   .gallery-content {
     display: flex;
-    padding: 1em 2em 0 2em;
+    padding: 1em 2em 0 0.5em;
     height: 100%;
     background: var(--black);
   }
